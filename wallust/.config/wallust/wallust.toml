@@ -1,0 +1,2 @@
+[templates]
+waybar = { src = 'waybar-colors.css', dst = '~/.config/waybar/colors.css' }
