@@ -1,3 +1,5 @@
+@import url("colors.css");
+
 * {
     font-family: 'Noto Sans Mono', 'Font Awesome 6 Free', 'Font Awesome 6 Brands', monospace;
     font-size: 13px;
@@ -6,7 +8,7 @@
 @define-color inactive_module_color #a9a9a9;
 
 window#waybar {
-    background-color: rgba(43, 48, 59, 0.8);
+    background-color: transparent;
     border-color: rgba(100, 114, 125, 0.5);
     border-style: solid;
     color: #ffffff;
@@ -101,9 +103,13 @@ window#waybar #window {
     box-shadow: none;
 }
 
+#workspaces {
+	background-color: @foreground;
+	border-radius: 5;
+}
+
 #workspaces button {
-    background-color: transparent;
-    color: #ffffff;
+    color: @background;
 }
 
 #workspaces button:hover {

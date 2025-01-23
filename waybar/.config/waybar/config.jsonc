@@ -16,15 +16,15 @@
     "modules-right": [
         "idle_inhibitor",
         "pulseaudio",
-        "network",
-        "power-profiles-daemon",
-        "cpu",
-        "memory",
-        "temperature",
-        "backlight",
+        // "network",
+        // "power-profiles-daemon",
+        // "cpu",
+        // "memory",
+        // "temperature",
+        // "backlight",
         "battery",
-        "clock",
         "tray"
+        "clock",
     ],
     // Modules configuration
     "hyprland/submap": {
